@@ -1,0 +1,38 @@
+
+.clothesBox {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  margin: 15px 0px;
+}
+
+.imgForClothes {
+  width: 70%;
+}
+
+.descriptionForClothes {
+  position: absolute;
+  top: 0px;
+  left: 15%;
+  width: 70%;
+  height: 99%;
+  background-color: rgb(168, 164, 164);
+  opacity: 70%;
+  line-height: 300px;
+  font-size: 40px;
+  color: black;
+
+}
+
+.eye {
+  position: absolute;
+  top: 0px;
+  left: 15%;
+  width: 70%;
+  height: 99%;
+  opacity: 1%;
+  line-height: 300px;
+  font-size: 40px;
+  color: rgb(163, 154, 154);
+}
+

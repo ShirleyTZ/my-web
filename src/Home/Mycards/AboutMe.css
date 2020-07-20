@@ -1,0 +1,57 @@
+#sector {
+  position: relative;
+  height:520px;
+  margin-bottom: 30px;
+  margin-top:30px;
+}
+
+.sector-item {
+  width: 130px;
+  height: 500px;
+  font-size: 25px;
+  line-height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -65px;
+  border-radius: 15% 15% 20% 20%;
+  box-shadow: 0px 5px 15px rgb(182, 178, 178);
+  transform-origin: 25% 90%;
+  opacity: 75%;
+}
+
+#sector li:nth-of-type(1) {
+  background-color: red;
+}
+#sector li:nth-of-type(2) {
+  background-color: orange;
+}
+#sector li:nth-of-type(3) {
+  background-color: yellow;
+}
+#sector li:nth-of-type(4) {
+  background-color: green;
+}
+#sector li:nth-of-type(5) {
+  background-color: cyan;
+}
+#sector li:nth-of-type(6) {
+  background-color: blue;
+}
+#sector li:nth-of-type(7) {
+  background-color: rgb(233, 181, 233);
+  color: rgb(135, 146, 146);
+  opacity: 90%;
+}
+
+#sector li:last-of-type:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+  bottom: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .8), inset 0 0 3px rgba(0, 0, 0, .3);
+}

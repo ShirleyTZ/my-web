@@ -1,0 +1,86 @@
+#headerForTodoList {
+  font-size: 20px;
+  margin: 10px auto;
+  color: rgb(43, 102, 8);
+}
+
+#writeSection {
+  background-color: rgb(218, 212, 212);
+  width: 1226px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#usersBox {
+  height: 150px;
+  margin: auto;
+}
+
+#usersBox input {
+  height:40px;
+  width: 300px;
+  font-size: 20px;
+  padding-left: 10px; 
+  margin: 10px 10px;
+}
+
+#wordsBox {
+  display: flex;
+  height: 100px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+#writingArea {
+  width: 70%;
+  font-size: 25px;
+  padding-left: 10px;
+  border-radius: 20px; 
+}
+
+#writingSubmitBtn {
+  width: 28%;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.showTodoBox {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 20px 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.imgAndUsername {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgAndUsername img {
+  margin-right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.showTodoWriten {
+  background-color: rgb(166, 247, 247);
+  font-size: 20px;
+  min-height: 100px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+
+
+.showTodoUsernames {
+  display: inline-block;
+}
+
+.showTodoUsernames {
+  font-size: 25px;
+}

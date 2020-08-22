@@ -17,7 +17,7 @@
   border-radius: 15% 15% 20% 20%;
   box-shadow: 0px 5px 15px rgb(182, 178, 178);
   transform-origin: 25% 90%;
-  opacity: 75%;
+  opacity: 0.75;
 }
 
 #sector li:nth-of-type(1) {
@@ -41,7 +41,7 @@
 #sector li:nth-of-type(7) {
   background-color: rgb(233, 181, 233);
   color: rgb(135, 146, 146);
-  opacity: 90%;
+  opacity: 0.9;
 }
 
 #sector li:last-of-type:after {

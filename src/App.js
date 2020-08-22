@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import ItemList from './PublicComponents/ItemList';
 import FrontEnd from './FrontEnd/FrontEnd';
 import Clothes from './Clothes/Clothes';

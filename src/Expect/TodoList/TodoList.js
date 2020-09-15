@@ -16,6 +16,9 @@ class TodoList extends Component {
 
   componentDidMount(){
     var storage=localStorage.getItem("showBox");
+    if(storage === null) {
+      return null;
+    }
     var storageItem = JSON.parse(storage);
     this.setState({
       show:storageItem

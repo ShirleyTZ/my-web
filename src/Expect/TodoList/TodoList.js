@@ -19,8 +19,7 @@ class TodoList extends Component {
     var storageItem = JSON.parse(storage);
     this.setState({
       show:storageItem
-    })
-    console.log(storage);
+    });
   }
 
   checkLogin(i) {
